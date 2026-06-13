@@ -85,7 +85,7 @@
 
             bindings = <
 &kp ESC           &hrm F1 N1  &hrm F2 N2  &hrm F3 N3  &hrm F4 N4       &hrm F5 N5                  &hrm F6 N6  &hrm F7 N7   &hrm F8 N8  &hrm F9 N9  &hrm F10 N0  &kp BACKSPACE
-&kp TAB           &kp Q       &kp W       &kp E       &kp R            &kp T                       &kp Y       &kp U        &kp I       &hrm F11 O  &hrm F12 P   &kp MINUS
+&kp TAB           &kp Q       &kp W       &kp E       &kp R            &kp T                       &kp Y       &kp U        &kp I       &hrm F11 O  &hrm F12 P   &kp LEFT_BRACKET
 &kp LEFT_SHIFT    &kp A       &kp S       &kp D       &kp F            &kp G                       &kp H       &kp J        &kp K       &kp L       &kp SEMI     &kp SQT
 &kp LEFT_CONTROL  &kp Z       &kp X       &kp C       &kp V            &kp B       &none    &none  &kp N       &kp M        &kp COMMA   &kp DOT     &kp FSLH     &kp RIGHT_SHIFT
                                           &kp LALT    &lt 1 BACKSLASH  &kp SPACE   &none    &none  &kp SPACE   &lt 2 ENTER  &kp RGUI
