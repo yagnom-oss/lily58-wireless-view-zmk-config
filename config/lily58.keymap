@@ -101,11 +101,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&kp F1            &kp F2           &kp F3           &kp F4         &kp F5            &kp F6                        &kp F7     &kp F8  &kp F9  &kp F10  &kp F11       &kp F12
-&kp GRAVE         &kp PERCENT      &kp CARET        &kp AMPERSAND  &kp SEMI          &kp COLON                     &kp PLUS   &kp N7  &kp N8  &kp N9   &kp ASTERISK  &kp SLASH
-&kp LEFT_SHIFT    &kp EXCLAMATION  &kp QUESTION     &kp AT_SIGN    &kp HASH          &kp DOLLAR                    &kp MINUS  &kp N4  &kp N5  &kp N6   &kp DOT       &kp PIPE
-&kp LEFT_CONTROL  &kp INS          &kp PRINTSCREEN  &kp LESS_THAN  &kp GREATER_THAN  &kp DEL     &trans    &trans  &kp N0     &kp N1  &kp N2  &kp N3   &kp EQUAL     &kp RIGHT_SHIFT
-                                                    &kp LEFT_ALT   &trans            &trans      &trans    &trans  &trans     &trans  &trans
+&kp F1            &kp F2           &kp F3           &kp F4          &kp F5            &kp F6                       &kp F7     &kp F8  &kp F9  &kp F10  &kp F11       &kp F12
+&kp GRAVE         &kp EXCLAMATION  &kp CARET        &kp UP_ARROW    &kp SEMI          &kp COLON                    &kp PLUS   &kp N7  &kp N8  &kp N9   &kp ASTERISK  &kp SLASH
+&kp LEFT_SHIFT    &kp QUESTION     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp HASH                     &kp MINUS  &kp N4  &kp N5  &kp N6   &kp DOT       &kp PIPE
+&kp LEFT_CONTROL  &kp INS          &kp PRINTSCREEN  &kp LESS_THAN   &kp GREATER_THAN  &kp DEL    &trans    &trans  &kp N0     &kp N1  &kp N2  &kp N3   &kp EQUAL     &kp RIGHT_SHIFT
+                                                    &kp LEFT_ALT    &trans            &trans     &trans    &trans  &trans     &trans  &trans
             >;
         };
 
@@ -118,11 +118,11 @@
             //                     |      |      |      |        |  |       |      |       |       |
 
             bindings = <
-&trans     &trans  &trans  &trans   &trans   &trans                     &bt BT_CLR   &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
-&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp N4   &kp N5                     &kp N6       &kp N7        &kp N8        &kp N9        &kp N0        &trans
-&kp F1     &kp F2  &kp F3  &kp F4   &kp F5   &kp F6                     &trans       &kp LEFT      &kp DOWN      &kp UP        &kp RIGHT     &trans
-&kp F7     &kp F8  &kp F9  &kp F10  &kp F11  &kp F12  &trans    &trans  &kp KP_PLUS  &kp MINUS     &kp EQUAL     &kp LBKT      &kp RBKT      &kp BSLH
-                           &trans   &trans   &trans   &trans    &trans  &trans       &trans        &trans
+&bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none       &none        &none         &none            &none              &none
+&kp RIGHT_BRACKET  &none         &none         &none         &none         &none                           &kp PLUS    &kp PERCENT  &kp UP_ARROW  &kp AMPERSAND    &kp ASTERISK       &kp BACKSLASH
+&kp LEFT_SHIFT     &none         &none         &none         &none         &none                           &kp MINUS   &kp LEFT     &kp DOWN      &kp RIGHT_ARROW  &kp DOUBLE_QUOTES  &trans
+&kp LEFT_CONTROL   &none         &none         &none         &none         &none         &trans    &trans  &kp DOLLAR  &kp HASH     &kp AT_SIGN   &kp LBKT         &kp SINGLE_QUOTE   &kp RIGHT_SHIFT
+                                               &kp LEFT_ALT  &trans        &trans        &trans    &trans  &trans      &trans       &trans
             >;
         };
     };
