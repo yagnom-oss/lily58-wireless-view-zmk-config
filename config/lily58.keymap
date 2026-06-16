@@ -103,7 +103,7 @@
             bindings = <
 &kp F1            &kp F2           &kp F3           &kp F4          &kp F5            &kp F6                              &kp F7     &kp F8  &kp F9  &kp F10  &kp F11       &kp F12
 &kp GRAVE         &kp EXCLAMATION  &kp CARET        &kp UP_ARROW    &kp SEMI          &kp LC(NUMBER_6)                    &kp PLUS   &kp N7  &kp N8  &kp N9   &kp ASTERISK  &kp SLASH
-&kp LEFT_SHIFT    &kp QUESTION     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp HASH                            &kp MINUS  &kp N4  &kp N5  &kp N6   &kp DOT       &kp PIPE
+&kp LEFT_SHIFT    &kp QUESTION     &kp LEFT_ARROW   &kp DOWN_ARROW  &kp RIGHT_ARROW   &kp NUMBER_0                        &kp MINUS  &kp N4  &kp N5  &kp N6   &kp DOT       &kp PIPE
 &kp LEFT_CONTROL  &kp INS          &kp PRINTSCREEN  &kp LESS_THAN   &kp GREATER_THAN  &kp DEL           &trans    &trans  &kp N0     &kp N1  &kp N2  &kp N3   &kp EQUAL     &kp RIGHT_SHIFT
                                                     &kp LEFT_ALT    &trans            &trans            &trans    &trans  &trans     &trans  &trans
             >;
