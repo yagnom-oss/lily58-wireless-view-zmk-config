@@ -119,7 +119,7 @@
 
             bindings = <
 &bt BT_CLR         &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4                    &none       &none        &none         &none             &none              &kp DEL
-&kp RIGHT_BRACKET  &kp ASTERISK  &kp SLASH     &kp PLUS      &kp MINUS     &kp DOT                         &kp PLUS    &kp PERCENT  &kp UP_ARROW  &kp AMPERSAND     &kp ASTERISK       &kp BACKSLASH
+&kp RIGHT_BRACKET  &kp ASTERISK  &kp SLASH     &kp PLUS      &kp MINUS     &kp DOT                         &kp PLUS    &kp PERCENT  &kp UP_ARROW  &kp UNDERSCORE    &kp ASTERISK       &kp BACKSLASH
 &kp LEFT_SHIFT     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp NUMBER_5                    &kp MINUS   &kp LEFT     &kp DOWN      &kp RIGHT_ARROW   &kp DOUBLE_QUOTES  &kp EQUAL
 &kp LEFT_CONTROL   &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp NUMBER_0  &trans    &trans  &kp DOLLAR  &kp HASH     &kp AT_SIGN   &kp LS(NUMBER_6)  &kp LS(NUMBER_7)   &kp RIGHT_SHIFT
                                                &kp LEFT_ALT  &trans        &trans        &trans    &trans  &trans      &trans       &trans
